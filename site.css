@@ -1,0 +1,69 @@
+body {
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+	font size: 16px;
+	background-color: black;
+	color: white;
+	opacity: 1;
+    padding: 10px;
+}
+.hiddenbutton
+{
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+	font size: 16px;
+	color: #030303;
+	opacity: 1;
+    padding: 10px;
+}
+.button
+{
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+	font size: 16px;
+	color: white;
+	opacity: 1;
+    padding: 10px;
+}
+.solved
+{
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+	font size: 16px;
+	color: #090909;
+	opacity: 1;
+    padding: 10px;
+}
+
+
+p
+{
+    word-break: break-all 
+}
+
+
+ul {
+    list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+     transition: 0.3s;
+}
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+    
+    .active {
+        background-color: #4CAF50;
+    }
+    
